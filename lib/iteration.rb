@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   index = 0
   string_array = []
-  while row_index < src.count do
+  while index < src.count do
      string_array[index] = "I love #{src[index][0]} and (#{src[index][1]}) on my pizza"
       index +=1 
   end
