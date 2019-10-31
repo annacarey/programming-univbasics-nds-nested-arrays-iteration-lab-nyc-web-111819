@@ -12,6 +12,8 @@ def join_ingredients(src)
     element_index = 0
     while element_index < src[row_index].count do 
       string_array[element_index] = "I love #{src[row_index]} and (#{src[row_index][element_index]}) on my pizza"
+    end
+  end
 end
 
 def find_greater_pair(src)
