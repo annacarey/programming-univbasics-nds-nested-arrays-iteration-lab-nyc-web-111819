@@ -9,7 +9,7 @@ def join_ingredients(src)
   index = 0
   string_array = []
   while index < src.count do
-     string_array[index] = "I love #{src[index][0]} and (#{src[index][1]}) on my pizza"
+     string_array[index] = "I love #{src[index][0]} and #{src[index][1]} on my pizza"
       index +=1 
   end
   return string_array
