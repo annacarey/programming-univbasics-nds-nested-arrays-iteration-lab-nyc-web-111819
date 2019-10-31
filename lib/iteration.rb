@@ -50,3 +50,4 @@ def total_even_pairs(src)
     index += 1
   return total 
 end
+end 
